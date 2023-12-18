@@ -6,7 +6,7 @@ import (
 )
 
 func main(){
-	estado, texto := variables.ConviertoaTexto(9555)
+	estado, texto := variables.ConviertoaTexto(1000)
 	fmt.Println(estado)
 	fmt.Println(texto)
 }
