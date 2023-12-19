@@ -1,6 +1,6 @@
 package main
 
-import "github.com/robertraul/godesde0/ejercicios"
+import "github.com/robertraul/godesde0/files"
 
 //"runtime"
 
@@ -30,6 +30,9 @@ func main() {
 		fmt.Println(texto)
 	*/
 
-	ejercicios.Ejercicio02()
+	//files.GrabaTabla()
+	//files.SumaTabla()
+
+	files.LeoArchivo()
 
 }
