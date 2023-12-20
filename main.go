@@ -1,7 +1,8 @@
 package main
 
 import (
-	"github.com/robertraul/godesde0/mapas"
+	it "github.com/robertraul/godesde0/ejercicios_interfaces"
+	mo "github.com/robertraul/godesde0/modelos"
 )
 
 //"runtime"
@@ -41,6 +42,12 @@ func main() {
 	//arreglosslices.MuestroArreglos()
 	//arreglosslices.MuestroSlices()
 	//arreglosslices.Capacidad()
-	mapas.MostrarMapa()
+	//mapas.MostrarMapa()
+	//users.AltaUsuario()
 
+	Robert := new(mo.Hombre)
+	it.HumanosRespirando(Robert)
+
+	Esmeralda := new(mo.Mujer)
+	it.HumanosRespirando(Esmeralda)
 }
