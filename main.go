@@ -1,6 +1,6 @@
 package main
 
-import "github.com/robertraul/godesde0/files"
+import "github.com/robertraul/godesde0/funciones"
 
 //"runtime"
 
@@ -32,7 +32,9 @@ func main() {
 
 	//files.GrabaTabla()
 	//files.SumaTabla()
-
-	files.LeoArchivo()
+	//files.LeoArchivo()
+	//funciones.Calculos()
+	//funciones.LlamarClousure()
+	funciones.Exponencia(2)
 
 }
