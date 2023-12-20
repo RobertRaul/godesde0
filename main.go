@@ -1,6 +1,6 @@
 package main
 
-import "github.com/robertraul/godesde0/funciones"
+import arreglosslices "github.com/robertraul/godesde0/arreglos_slices"
 
 //"runtime"
 
@@ -35,6 +35,7 @@ func main() {
 	//files.LeoArchivo()
 	//funciones.Calculos()
 	//funciones.LlamarClousure()
-	funciones.Exponencia(2)
+	//funciones.Exponencia(2)
+	arreglosslices.MuestroArreglos()
 
 }
