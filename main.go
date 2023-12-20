@@ -1,6 +1,8 @@
 package main
 
-import arreglosslices "github.com/robertraul/godesde0/arreglos_slices"
+import (
+	"github.com/robertraul/godesde0/mapas"
+)
 
 //"runtime"
 
@@ -36,6 +38,9 @@ func main() {
 	//funciones.Calculos()
 	//funciones.LlamarClousure()
 	//funciones.Exponencia(2)
-	arreglosslices.MuestroArreglos()
+	//arreglosslices.MuestroArreglos()
+	//arreglosslices.MuestroSlices()
+	//arreglosslices.Capacidad()
+	mapas.MostrarMapa()
 
 }
