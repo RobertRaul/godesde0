@@ -1,8 +1,7 @@
 package main
 
 import (
-	it "github.com/robertraul/godesde0/ejercicios_interfaces"
-	mo "github.com/robertraul/godesde0/modelos"
+	"github.com/robertraul/godesde0/middleware"
 )
 
 //"runtime"
@@ -45,9 +44,14 @@ func main() {
 	//mapas.MostrarMapa()
 	//users.AltaUsuario()
 
-	Robert := new(mo.Hombre)
-	it.HumanosRespirando(Robert)
+	// Robert := new(mo.Hombre)
+	// it.HumanosRespirando(Robert)
 
-	Esmeralda := new(mo.Mujer)
-	it.HumanosRespirando(Esmeralda)
+	// Vero := new(mo.Mujer)
+	// it.HumanosRespirando(Vero)
+	// canal1 := make(chan bool)
+	// go goroutines.MiNombreLento("Robert Raul Armejo Maque", canal1)
+	// <-canal1
+	//webserver.MiWebServer()
+	middleware.MiMiddleware()
 }
